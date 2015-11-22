@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script> 
+        <script src="js/bootstrap.js"></script> 
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+        <link type="text/css" rel="stylesheet" href="css/custom.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">		
+        <title>Rachel Havens Homepage</title>
+	</head>
+	
+	<body>
+		<section>
+			<header>
+				<h1 id="mainheader">Welcome!!</h1>
+			</header>
+			<div class="dropdown">	
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Site Navigation<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a id="homelink" href="home.html">Home</a></li>
+					<li><a href="pages/about.html">About</a></li>
+					<li><a href="pages/endorsements.html">Endorsements</a></li>
+					<li><a href="pages/projects.html">Projects</a></li>
+					<li><a href="pages/contact.html">Contact</a></li>
+				</ul>
+			</div>	
+			<article>
+				<h2>Short Bio</h2>
+				<img src="http://me.byu.edu/sites/default/files/byu_logo.gif"/>
+				<p class="garamond">Rachel Havens is a starting IT student at BYU.  She is just
+				finishing her undergraduate degree in music and is doing prereqs for
+				an IT graduate degree.  She works at BYU in the Laycock Center under
+				professor Derek Hansen of the BYU IT Department. </p>
+			</article>
+			
+		
+			<footer>
+				<p id="endinfo">
+				This webpage belongs to Rachel Havens.	
+				</p>
+				
+                		| <a href="http://www.facebook.com/pineapple.child"><i class="fa fa-facebook"></i></a> |
+				<a href="https://theboard.byu.edu/aliases/7776/"><i class="fa fa-y-combinator"></i></a> |
+				<a href="https://amzn.com/w/P5DVLI86AVKG"><i class="fa fa-amazon"></i></a> |
+			</footer>
+				
+		</section>
+
+		<script> 
+		$(document).ready(function () { 
+		$('.dropdown-toggle').dropdown(); 
+		}); 
+		</script> 
+	</body>
+</html>

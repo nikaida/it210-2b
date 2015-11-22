@@ -1,0 +1,68 @@
+.garamond{
+	font-family: garamond serif;
+}
+
+#mainheader{
+    font-weight: bold;
+    font-family: garamond serif;
+	color: #350037;
+}
+
+#homelink{
+	color: #350037;
+	font-weight: bold;
+}
+
+#endinfo{
+	color: #88468A
+}
+
+.linkbed .link {
+	background: url('/srv/http/fonts/sprite1.png');
+}
+
+.linkbed{
+	background-position: 0px 218px;
+	width: 40px;
+	height: 42px;
+}
+
+.linkbed a:hover{
+	background-position: -40px -218px;
+	width: 40px;
+	height: 42px;
+}
+
+.link{
+	background-position: 0px 0px;
+	width: 22px;
+	height: 25px;
+}
+
+.link a:hover{
+	background-position: -120px -210px;
+	width: 22px; 
+	height: 25px;
+}
+
+tr{
+    width: 95%;
+    text-align: left;
+}
+th{
+    padding-right: 10em;
+}
+td{
+    padding-right: 10em;
+}
+#firstcolumn{
+    padding-left: 0em !important;
+}
+
+#sortingfriend{
+    background-color: #330080 !important;
+}
+
+.bodytables{
+    padding: 15px;
+}

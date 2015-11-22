@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script> 
+        <script src="../js/bootstrap.js"></script>
+        <link type="text/css" rel="stylesheet" href="../css/bootstrap.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/custom.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">      
+        <title>Endorsements</title>
+    </head>
+    
+    <body>
+        <section>
+            <header>
+                <h2 id="mainheader">Endorsements</h1>
+            </header>
+            <div class="dropdown">  
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Site Navigation<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a id="homelink" href="../home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="endorsements.html">Endorsements</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>  
+            <article class="bodytables" id="table1">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" data-toggle="dropdown">Sort by...<span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a><input type="button" name="button" value="Date"  onClick="sortbyDate()"></td></tr>
+</a></li>
+                            <li><a><input type="button" name="button" value="Name"  onClick="sortbyName()"></td></tr>
+</a></li>
+                        </ul>
+                </div>
+                <div>
+                    <table id="endorsements">
+                        <tr>
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>Endorsement</th>
+                        </tr>
+                        <tr>
+                            <td>wrods</td>
+                            <td>wrods</td>
+                            <td>wrds</td>
+                        </tr>
+                </table>
+                </div>
+            </article>
+            
+            <article class="bodytables" id="submitform">
+                <form name="endorsementsubmit" action="" method="GET">
+                    <p id="mainheader"> Add new endorsement:</p> <BR>
+                    <table>
+                        <tr>
+                            <td>Enter Name: <input id="nameinput" type="text" name="nameinput"></td>
+                        </tr>
+                        <tr>
+                            <td>Enter Endorsement:</td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="endorsementinput" cols="40" rows="5" name="endorsementinput" placeholder="Type your endorsement here."></textarea>
+                            </td>
+                        </tr>
+                        <tr><td> <input type="button" name="button" value="Submit"  onClick="endorsementSubmit(this.form)"></td></tr>
+                    </table>
+                </form>
+            </article> 
+            <footer>
+                <p id="endinfo">
+                
+                This webpage belongs to Rachel Havens.  
+                </p>
+                
+               | <a href="http://www.facebook.com/pineapple.child"><i class="fa fa-facebook"></i></a> |
+                <a href="https://theboard.byu.edu/aliases/7776/"><i class="fa fa-y-combinator"></i></a> |
+                <a href="https://amzn.com/w/P5DVLI86AVKG"><i class="fa fa-amazon"></i></a> |
+            </footer>
+                
+        </section>
+
+        <script> 
+        $(document).ready(function () { 
+        $('.dropdown-toggle').dropdown(); 
+        }); 
+        </script> 
+
+        <script src="../js/endorsements.js"></script>
+    </body>
+</html>
+
+
